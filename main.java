@@ -15,7 +15,7 @@ public class ExampleServlet extends HttpServlet {
         request.setAttribute("message", message);
 
         // Forward the request to the JSP page
-        RequestDispatcher dispatcher = request.getRequestDispatcher("/example.jsp");
+        RequestDispatcher dispatcher = request.getRequestDispatcher("/index.jsp");
         dispatcher.forward(request, response);
     }
 }
